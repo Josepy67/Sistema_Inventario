@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2146FF50-A360-5977-D46B-47A745759DC2" name="AMASADO">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:34:49 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_amasado" id="4B04D773-3C19-085F-17F7-BACF05B79610">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:34:58 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_amasado" id="D8488B30-01C5-A176-1007-F14D2B8D1B11">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:36:09 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_bach" id="47FB6A92-9A7B-C5EA-3DA4-D3F71F5CD5FF">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:36:37 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_masa" id="D3ED204F-9D38-BDD4-5CA5-4892CA96B7CF">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:36:51 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_lata" id="A6404D63-AAB9-3770-5CEF-DA5D8BF89841">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:37:20 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="CCE18C51-12FA-204A-349B-E7C88B653449">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:37:56 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_termino" id="1898C14B-B67B-FB71-8CE4-6B95EE459FEE">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:38:12 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="EA59251B-D31A-8C8A-F687-E96E1AF11880">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:38:26 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="069864EA-C341-DCF0-561A-9467C2C203F9" name="AMASADO PK">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:35:06 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B04D773-3C19-085F-17F7-BACF05B79610</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

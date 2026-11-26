@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7B4B853-5DA1-E965-3735-144AF5E8062A" name="LOTE_PRODUCCION">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:29:59 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_lote_producto" id="CA245531-4995-349F-CA69-BB8212C3FE7A">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:30:10 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_produccion" id="47F35981-6FBF-CA82-1FE5-BEDBADC78203">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:30:45 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_producida" id="3DA26D86-953B-8BF1-2FDE-0571BF84F684">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:31:14 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="B4228867-C978-CC06-50BC-6CF147C06D19">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:31:37 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_termino" id="A71AEF23-1112-3E6F-770A-E3BA3A77A9A1">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:31:47 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="D049C609-8A67-C505-7DBA-D91BB2D6C20D">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:31:55 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BA93CA4-117A-64D2-FBFB-9E195F74BEE0" name="LOTE_PRODUCCION PK">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:30:32 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA245531-4995-349F-CA69-BB8212C3FE7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

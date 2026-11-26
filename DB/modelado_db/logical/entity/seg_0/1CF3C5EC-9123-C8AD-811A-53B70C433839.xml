@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CF3C5EC-9123-C8AD-811A-53B70C433839" name="RECETA">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:23:01 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_receta" id="8152A108-DDA2-A175-BB5D-883A40498D4F">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:24:04 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3F7E9CFF-A1EA-489C-D926-BBE83E8DEB40">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:24:27 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="version" id="54B4BE71-BC9F-EF22-2E7F-CB262FB01813">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:24:46 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vigencia" id="483D3FA6-A550-2764-DB53-2F418E334D7C">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:25:02 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="46AA1629-76B3-EBB9-792D-74997F38B261">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:25:27 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="6163784E-3E25-6274-6F0C-A8307F7F1E52">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:25:55 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4CAC346-B479-5F15-B2F7-C7FF327FC489" name="RECETA PK">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 19:24:22 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8152A108-DDA2-A175-BB5D-883A40498D4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

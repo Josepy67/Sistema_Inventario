@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B797915-9DD2-8CE3-5101-F62563E7D5ED" name="MATERIA_PRIMA">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:52:41 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_materia_prima" id="1EC9F738-F5F1-E98A-898C-FF3058110A00">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:53:06 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="96B15F52-B8B6-3506-FB1D-E692C35D67D9">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:53:24 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="2DC901F5-3B0E-0B51-FDFB-1D144C62CD81">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:53:52 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requiere_refrigeracion" id="B5133A29-77BD-9A02-6C73-C7380CD9FBCB">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:54:01 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_minimo" id="BCBA09F7-0CB6-90B4-3AAC-E0B6B73352B9">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:54:36 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="E2D42D0B-E811-A4E4-BB86-C289628D4EC9">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:54:48 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requiere_control_vencimiento" id="AF7BB1E2-4054-1EF8-AA79-7E11FD29F729">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:55:16 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BCAE411-7AB4-7BDC-DA91-0D915FD45F15" name="MATERIA_PRIMA PK">
+<createdBy>ixem_wq</createdBy>
+<createdTime>2026-11-26 18:56:31 UTC</createdTime>
+<ownerDesignName>modelado_db</ownerDesignName>
+<engineerTo>
+<item key="7D43A795-9414-19EE-3845-E3D0CC0E241D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EC9F738-F5F1-E98A-898C-FF3058110A00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
