@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCDB57B1-B48C-7D2B-F9C1-0DFEED862D7E" name="BODEGA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bodega" id="4F50D942-774A-86EF-A1A7-A8AA6D57A5BE">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_empresa" id="23A63EDB-2B3E-0779-63C9-F8E322D008E8">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DD8B02B-5EA7-92C5-1AF8-68585D866CE9" referredColumn="B6C2A29B-BAAA-85D8-1FAD-088500C2966B"/>
+</associations>
+</Column>
+<Column name="nombre" id="EB374134-5124-663B-2124-5593D156E285">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4270F5BE-BB7F-E170-F08E-66BF6A0A94C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="E2D1FE22-8CA4-EBF2-713E-221B76D36EEE">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>40B1199C-E44D-D451-B7D6-B8C434D796D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura_minima" id="D0C19A4A-48FD-F1D7-4560-D5382F6A74A3">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04F8511-B327-8FF3-3DE1-BDBE914DDC48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura_maxima" id="8E6A9DAE-749C-B7E4-1314-3C4FA1CE5D41">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04F8511-B327-8FF3-3DE1-BDBE914DDC48</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="5B20CFE4-4257-3680-200D-CE77CB2304C1">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>685DA975-2C3C-7B3E-6D38-C517B52B65B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="09E9CBCB-ED19-CB37-9674-FEED33DDFDA4">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF2A8C1A-6F95-30C5-9A90-617D8583718C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B98E4D3-29B9-CF43-3F45-948592CF7BE2" name="pk_bodega">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F50D942-774A-86EF-A1A7-A8AA6D57A5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B16D09F-B5B8-AD4B-8E46-06F544A4F194" name="uq_bodega_empresa_id">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A63EDB-2B3E-0779-63C9-F8E322D008E8"/>
+<colUsage columnID="4F50D942-774A-86EF-A1A7-A8AA6D57A5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304C06D6-7EB2-A8F7-109F-E68C567E760E" name="fk_bodega_empresa">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A63EDB-2B3E-0779-63C9-F8E322D008E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_bodega_temperaturas" directorySegmentName="seg_0" id="78F40C9C-8AF9-CBC7-090A-0E8BCFDD828E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<rule><![CDATA[temperatura_minima IS NULL OR temperatura_maxima IS NULL OR temperatura_minima <= temperatura_maxima]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

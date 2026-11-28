@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="A5D28F90-54B3-1A27-CDF7-00A439414787" name="RECEPCION MATERIA PRIMA">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>71F6718B-CAF9-C101-9CDD-E9CA475029F6</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id recepcion" id="046DEE53-1E29-0E3F-3821-2659510436BB">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>11C779E9-72E7-0B46-00B7-CB41FF83257E</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id empresa" id="82F05A5C-9245-1AA8-AC80-D19AE7C7C8C7">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>415AD8B1-5817-058A-A75A-97F5FAAC7F24</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>15D8F395-8845-4BCC-E63B-F41799FF7D92</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id proveedor" id="7DC57FE9-E913-328D-6BCB-E959D3101F12">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BA4A292F-9417-B68F-3E27-F3B60F14939E</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>4AA4F08B-A208-54E1-F12D-03FCDD1017D3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id empleado" id="F0E44A8F-0A5D-8451-A9FA-6C2F269D60D6">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>415AD8B1-5817-058A-A75A-97F5FAAC7F24</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>AEFCC6DC-721D-270E-0F1A-788C97EC04CB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="513A5D84-067E-A16C-0246-C728B7914222">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BB8A2BFE-8DE4-875D-2454-6D8E2C123802</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>89D289DF-AFC2-B554-7AFD-8B6A5F1C9672</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha recepcion" id="CB5A8CE6-3435-0FE4-E055-4365870FBFB4">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>E37A6CC7-5D6E-D7AD-5AE7-9713119C5204</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="3A38B436-6FF8-4878-8F8C-2D30F66B140E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>0133A9EE-036D-9266-6931-7E330F93B738</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>1FB95924-1B79-E43C-CF8E-5660101E724E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="D47E422F-AB2E-CC63-677F-ECA923022C46">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BC602525-221C-AF74-5443-FFBEBE7F149F</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF2A8C1A-6F95-30C5-9A90-617D8583718C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPRESA.id empresa" id="A93283EE-B9CB-7BE2-342D-12391E946802">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>8D02ADDA-6933-2F34-1280-1CA5673963A1</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>2D1F5572-18EA-1655-EE6D-3CF15917827E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVEEDOR.id empresa" id="BA6BCB9C-5D38-D238-0047-75A4E1173CA4">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BA4A292F-9417-B68F-3E27-F3B60F14939E</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>474C23EC-A974-B150-A68B-15CA6713EA2B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1A89AED-E56A-F7FE-4FEE-40298051E436" name="pk recepcion materia prima">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>280C6A4C-6419-15B9-51AA-14B758FCF625</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>046DEE53-1E29-0E3F-3821-2659510436BB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A4D46BCD-79F8-381F-C42F-6B6E11A54E90" name="uq recepcion empresa id">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>9307EAC3-E579-9344-4B6C-211EF85DA6E3</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>82F05A5C-9245-1AA8-AC80-D19AE7C7C8C7</attributeRef>
+<attributeRef>046DEE53-1E29-0E3F-3821-2659510436BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

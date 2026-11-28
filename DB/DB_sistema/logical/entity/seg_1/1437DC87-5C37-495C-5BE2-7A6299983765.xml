@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="1437DC87-5C37-495C-5BE2-7A6299983765" name="EMPAQUETADO">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>492D24A9-4D84-E40F-C2D9-6DDBDBEB1EA6</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id empaquetado" id="CDC72456-C470-1846-E61C-C3E9FA1A6CB7">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BBFE958C-B4DB-46E5-6ED4-2504390432A7</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id empresa" id="17E67C9B-42FB-827F-9715-53C3A8120487">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>47B06496-3853-F4B9-86B4-22AC7BD31903</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>15D8F395-8845-4BCC-E63B-F41799FF7D92</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id lote producto" id="2B9C8AEE-74DE-231C-0F1B-422E966D2D35">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BF794103-0D96-35FE-50B8-14B9545505C2</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>5F17EF0C-AAFA-6729-363F-1AF66ACFBD84</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero empaquetado" id="E06D35AB-8231-16C7-521C-2D85372C21DD">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>3682E796-809B-6182-D626-5E9E4C36717B</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>08F6DE54-B1E9-4D54-02EF-4304A55A5DA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="FA22C1E3-D121-AC1B-6EF0-A9EBD6E49103">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>8F5E070B-C8B8-BB2A-9A23-6C7E3328C608</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha termino" id="482F7FE1-A7C0-2646-4EDF-6F2ADAACA4D3">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>B9405C4A-CDF8-67FC-643E-29E6A7EF5E34</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad procesada" id="799A73EC-79F1-D0C1-73EC-766B772DA705">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>C5F835DF-788B-0F9A-6B59-18BBB57F6291</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4FE3AB7B-076A-6374-98B3-4CEFF0338BFA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id unidad" id="5030C93C-52F0-41DA-C2AC-5024A23D44E7">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>9C9432BE-60D1-DF3B-9B07-D489CDC004F5</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>74184B79-998F-33B0-E502-7F771A699F83</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id empleado" id="0E1799C1-1F22-338F-6228-BC31B5BB9AA6">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>47B06496-3853-F4B9-86B4-22AC7BD31903</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>AEFCC6DC-721D-270E-0F1A-788C97EC04CB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="A3E405C3-7DD4-4660-8A56-73670B73C7D5">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>A35721BA-701D-A0DA-99F5-789E31BFBB9D</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>1FB95924-1B79-E43C-CF8E-5660101E724E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOTE PRODUCCION.id empresa" id="B28F97D4-ECED-C878-2172-68B8B427AA03">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>BF794103-0D96-35FE-50B8-14B9545505C2</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<referedAttribute>F1D90EEA-E583-6448-5411-F167FA02765A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD0A4051-72F1-4A83-7FDA-2A19CD08DF30" name="pk empaquetado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>94289D8E-2D7D-6A14-E895-4DA9CA319E85</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDC72456-C470-1846-E61C-C3E9FA1A6CB7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="330F0495-5798-7C96-55F3-984BB93CC56E" name="uq empaquetado empresa id">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>8B699E3D-37ED-978D-CBDF-591E77E081CE</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>17E67C9B-42FB-827F-9715-53C3A8120487</attributeRef>
+<attributeRef>CDC72456-C470-1846-E61C-C3E9FA1A6CB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

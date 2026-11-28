@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65F30D65-82BB-9F3E-7526-9C561C86E505" name="EMPRESA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="B6C2A29B-BAAA-85D8-1FAD-088500C2966B">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="razon_social" id="975BA4A5-7E61-90C3-AC2A-CEA1DEC4A45C">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3C74EE1-BA21-67E5-167E-838E5497022A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comercial" id="727BDCB8-33EC-BDC4-1844-782FE84BB917">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3C74EE1-BA21-67E5-167E-838E5497022A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="BA9C67AB-8AB3-BCC1-390D-782CFFA9C684">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E6E82D8-F642-87FB-8E80-23BBB5AE36C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="giro" id="781BADA5-2333-AF58-A16A-A320D4C9D2C8">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3C74EE1-BA21-67E5-167E-838E5497022A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="506A8636-A5D0-0E85-03BE-49D2D7B29089">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4937B89-B36E-84AB-0BB0-F1642D23CB0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="D7A9B864-0660-581B-DD4D-20611C26EA58">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF2A8C1A-6F95-30C5-9A90-617D8583718C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="3F50D85D-CC0D-900D-6E7D-87AB4EDD6E68">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CCA7214-25E2-DFD6-E9F5-116CD289E56B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="552209AB-A22E-DABC-31F4-B4576E655964">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="1E9E48E5-70DB-19F3-5F6F-6642A0ABA488">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DF2A8C1A-6F95-30C5-9A90-617D8583718C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DDA1750-BA94-0350-E0AF-81D1F84C07E6" name="pk_empresa">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C2A29B-BAAA-85D8-1FAD-088500C2966B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="255C6005-350D-F5CA-4BC9-698F631666F3" name="uq_empresa_rut">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9C67AB-8AB3-BCC1-390D-782CFFA9C684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E1F6188-A944-B86A-B274-6A4D57722E0D" name="MERMA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_merma" id="0774752F-3715-BD99-F863-FCBE14B247D5">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_empresa" id="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8638751C-A07A-9482-4DB2-F4C64C34DF6B" referredColumn="F6D5A520-A7C6-0C70-ABA1-00D5F3829BA9"/>
+<colAssociation fkAssociation="CECB0ED0-647C-B87D-6381-B2AD1D71B842" referredColumn="E7500806-A974-7AED-2FD6-F8308EEF8AB6"/>
+<colAssociation fkAssociation="55A9A02C-9502-53BF-AC94-3AB8DB3D5AEC" referredColumn="084DE353-4FBB-0E9D-2885-C395C4EAAE78"/>
+<colAssociation fkAssociation="0DB028CC-A2B2-B1C5-58F5-326528DC6587" referredColumn="A7886DAD-2F16-86BD-0421-C58B1FE6DB9D"/>
+<colAssociation fkAssociation="936FFD1E-C05B-5C9B-E980-E8EEACD9ABE3" referredColumn="991EE48E-DE05-70BF-EA04-B7D23CD7FFFE"/>
+</associations>
+</Column>
+<Column name="id_lote_producto" id="57D0438C-764B-8E95-E95D-D2D55EC29E0F">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="936FFD1E-C05B-5C9B-E980-E8EEACD9ABE3" referredColumn="F7E843D1-C4DA-AAAD-AD2F-E0255E35F7E5"/>
+</associations>
+</Column>
+<Column name="id_amasado" id="70A11165-60F5-99B4-720F-D3865133030B">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8638751C-A07A-9482-4DB2-F4C64C34DF6B" referredColumn="34DEB09F-6697-A154-F736-DF4B6A7BADBD"/>
+</associations>
+</Column>
+<Column name="id_horneado" id="D7E1FBB4-8F3D-2607-C3F4-596357A4D578">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DB028CC-A2B2-B1C5-58F5-326528DC6587" referredColumn="B7813F39-822C-D35C-9AEB-8CC243380956"/>
+</associations>
+</Column>
+<Column name="id_empaquetado" id="C452CB6F-7DBD-BB0D-A323-92F0121ACA04">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CECB0ED0-647C-B87D-6381-B2AD1D71B842" referredColumn="BBFE958C-B4DB-46E5-6ED4-2504390432A7"/>
+</associations>
+</Column>
+<Column name="etapa" id="D9D47B0E-FD47-8884-4F32-BB78561613E6">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>40B1199C-E44D-D451-B7D6-B8C434D796D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="26772E7F-C08B-8CCA-FC79-961BD26BEED6">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4FE3AB7B-076A-6374-98B3-4CEFF0338BFA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_unidad" id="3EFE308B-C3B6-F96B-214F-F0600A157BFC">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302F6293-8A87-8D9E-9A6E-2E4B0A82396B" referredColumn="F5C6FC62-384F-80B8-5F07-F61915920E30"/>
+</associations>
+</Column>
+<Column name="motivo" id="937AB677-0F37-6CE1-5BC2-02787F508455">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>1FB95924-1B79-E43C-CF8E-5660101E724E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="95D6431A-B2F8-B747-8CA4-1AFD259227C4">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="1D1DFECC-A730-DE62-5706-DE09706FE9E2">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55A9A02C-9502-53BF-AC94-3AB8DB3D5AEC" referredColumn="D07F29DE-0CEC-76B4-B4F2-FDD3E4ABAE85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78B3D3A7-B6A7-B99E-1E65-AF745AD63998" name="pk_merma">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0774752F-3715-BD99-F863-FCBE14B247D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD493643-D6DA-724E-E8A0-AA6F6BCE56A5" name="fk_merma_amasado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B"/>
+<colUsage columnID="70A11165-60F5-99B4-720F-D3865133030B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0083373D-B0F6-E2E3-DE3C-B0555A4D6F32" name="fk_merma_empaquetado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B"/>
+<colUsage columnID="C452CB6F-7DBD-BB0D-A323-92F0121ACA04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8576D9FE-5D2E-3B22-44A8-FCA6B829D6F2" name="fk_merma_empleado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B"/>
+<colUsage columnID="1D1DFECC-A730-DE62-5706-DE09706FE9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE4EBCC7-A398-5B5F-29C1-89078C5FD53B" name="fk_merma_horneado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B"/>
+<colUsage columnID="D7E1FBB4-8F3D-2607-C3F4-596357A4D578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13897A7A-681B-7A40-3C6E-6D186D790174" name="fk_merma_lote">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C5497F-6C60-1E82-B5DB-1D7D4BB6334B"/>
+<colUsage columnID="57D0438C-764B-8E95-E95D-D2D55EC29E0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5392AE6-EAEA-3F13-C979-616EFBFCC661" name="fk_merma_unidad">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EFE308B-C3B6-F96B-214F-F0600A157BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_merma_cantidad" directorySegmentName="seg_0" id="E12A3F56-0D80-5F31-E448-D4471A21C853">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<rule><![CDATA[cantidad > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_merma_una_etapa" directorySegmentName="seg_0" id="3F00B519-D1EE-2228-7162-359151EDCB98">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<rule><![CDATA[(CASE WHEN id_amasado IS NOT NULL THEN 1 ELSE 0 END) + (CASE WHEN id_horneado IS NOT NULL THEN 1 ELSE 0 END) + (CASE WHEN id_empaquetado IS NOT NULL THEN 1 ELSE 0 END) = 1]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

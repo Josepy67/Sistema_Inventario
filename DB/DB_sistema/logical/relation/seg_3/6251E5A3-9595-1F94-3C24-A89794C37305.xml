@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_hist_ubic_ubicacion" directorySegmentName="seg_3" id="6251E5A3-9595-1F94-3C24-A89794C37305">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>F86D7E2D-578D-5046-B68C-DD039748521E</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>FE7CD1E9-70BA-AC83-71D6-3945907B7DE5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B73DA99-06BA-0945-BA27-1D39CD4BD90E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E6FAB68-40AC-1E0D-CF90-04B7D2AAC442</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

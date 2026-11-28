@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_sistema" id="63E727BE-16A8-A240-AE28-1DD6DA67DCFE" version="3.5">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:25 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>63E727BE-16A8-A240-AE28-1DD6DA67DCFE</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8B73AE7D-1BD2-1DE6-9E8F-A65AA12CDBF0">
+<designStoragePath>/modelo_datamodeler_importacion_oracle</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

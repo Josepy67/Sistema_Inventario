@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C7BB32C-1415-280E-6BCA-9341A5605FAC" containerWithKeyObject="04BABFD6-3331-95A0-E753-2DE7C004140D" localFKIndex="B516D0F9-12CA-20E3-4B37-DAF4BA0E55FA" name="fk_materia_prima_empresa">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>EMPRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65F30D65-82BB-9F3E-7526-9C561C86E505</referredTableID>
+<keyObject>7DDA1750-BA94-0350-E0AF-81D1F84C07E6</keyObject>
+<referredKeyID>7DDA1750-BA94-0350-E0AF-81D1F84C07E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

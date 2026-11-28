@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_detalle_receta_mp" directorySegmentName="seg_3" id="6B86FF0C-7AA8-DAFF-B13B-3744872210B0">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>A2DCF9B6-10CC-6003-C54F-682D8B71EBF8</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>5F9A5780-D0BE-C4D2-3459-F567B82B3B92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C055E4D-865F-EDD2-F750-85D397A585D9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5CA2891-6228-81CE-2CC7-BFC939E68E27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

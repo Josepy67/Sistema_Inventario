@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_registro_temp_empleado" directorySegmentName="seg_3" id="25D88DD2-EE22-02B2-CCDB-2835B90215E6">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>00B40C75-A466-859D-AE24-8E49BF4249F8</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>CEA47EE5-3157-5572-1B6C-41F2CC98F27B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CA51423-DF58-F97D-3774-A92E71AD55C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EC6AD7F-15AC-2336-CD99-6EC23B49B894</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

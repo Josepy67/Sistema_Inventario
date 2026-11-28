@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_detalle_mov_pt_lote" directorySegmentName="seg_2" id="6A8DDA48-D250-3BCA-964A-08F1395E171D">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>E430605E-45B2-031B-63C5-4CC251DBABD6</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>56FDE367-F8ED-E5DE-C84F-9715C9E74667</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>010E845D-F247-875E-ED64-88FFEC4BDC6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CFB25624-DD79-D2F1-8B22-4E13B6FEF792</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

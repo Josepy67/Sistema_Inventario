@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_suscripcion_plan" directorySegmentName="seg_3" id="F9E312E9-ABC3-F4E6-6BE5-E4CA85B8FC64">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>ADEF3212-45F6-E133-F546-26CC7DE96930</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>B142CCED-873E-A63B-1E5B-B9A5746D82BB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82DE5818-EA05-3B57-AAFC-C37473363847</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCA94D9B-28E9-54AD-ADB2-5D0D75ACED20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

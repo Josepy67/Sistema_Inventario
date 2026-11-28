@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DFA3DD15-02F0-3B40-E965-F28C27D274F0" containerWithKeyObject="E85B3F4E-157A-0266-1FAD-4822951E5734" localFKIndex="66F61276-0162-46E8-E8E4-F72A57E379C3" name="fk_rel_he_horneado">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>HORNEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17A6FBBE-F5F1-7CBA-6397-B6EC9ECF9A28</referredTableID>
+<keyObject>63355ADB-AF79-72AC-81F9-5A5959EA5669</keyObject>
+<referredKeyID>63355ADB-AF79-72AC-81F9-5A5959EA5669</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_horneado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

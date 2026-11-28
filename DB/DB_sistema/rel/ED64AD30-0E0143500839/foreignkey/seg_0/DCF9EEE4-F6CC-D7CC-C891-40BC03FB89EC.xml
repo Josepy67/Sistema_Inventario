@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCF9EEE4-F6CC-D7CC-C891-40BC03FB89EC" containerWithKeyObject="BE3494A0-5D2B-98B2-ABA0-7B20E6960CF1" localFKIndex="30A7ED65-5257-2179-28C1-225ADAAB7B20" name="fk_lote_produccion_orden">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>ORDEN_PRODUCCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2C4D46E-1797-FFB7-1D75-8941D1B28B2E</referredTableID>
+<keyObject>7A769C5A-3E7F-E6F1-D5FF-DF0C317677AC</keyObject>
+<referredKeyID>7A769C5A-3E7F-E6F1-D5FF-DF0C317677AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_orden</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

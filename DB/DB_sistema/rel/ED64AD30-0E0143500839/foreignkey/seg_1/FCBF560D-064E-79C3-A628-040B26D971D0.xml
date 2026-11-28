@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="FCBF560D-064E-79C3-A628-040B26D971D0" containerWithKeyObject="B869CDF1-DE3B-C50A-4BAA-E40DE01948EF" localFKIndex="69A69AF8-0792-B017-DF6B-78D1199F760D" name="fk_receta_empresa">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>EMPRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65F30D65-82BB-9F3E-7526-9C561C86E505</referredTableID>
+<keyObject>7DDA1750-BA94-0350-E0AF-81D1F84C07E6</keyObject>
+<referredKeyID>7DDA1750-BA94-0350-E0AF-81D1F84C07E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

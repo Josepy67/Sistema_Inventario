@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD42B6D1-9183-F78B-F23E-AFC87756369F" containerWithKeyObject="D790EEDC-2CE5-CEB2-92F6-04F72D6D3826" localFKIndex="3C1AF251-8B03-DE99-82B5-0F2A2BE6E28A" name="fk_detalle_receta_unidad">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>UNIDAD_MEDIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ABDBCCC-1AF9-FC9D-169F-85832995B4D8</referredTableID>
+<keyObject>F97CA065-7E84-E181-A29A-2AAF83795B14</keyObject>
+<referredKeyID>F97CA065-7E84-E181-A29A-2AAF83795B14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_unidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

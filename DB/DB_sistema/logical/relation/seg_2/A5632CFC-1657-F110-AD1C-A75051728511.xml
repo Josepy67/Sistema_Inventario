@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_auditoria_usuario" directorySegmentName="seg_2" id="A5632CFC-1657-F110-AD1C-A75051728511">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>2924EB78-0F5C-4D41-7469-AF66065C2DA7</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>1FB8ED9E-9ECD-26C2-78E7-50645A089F8E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>17B1CD3E-8FB0-C006-AF18-C134F3D688F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3AD942F-A52C-D589-9687-D882D410D525</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

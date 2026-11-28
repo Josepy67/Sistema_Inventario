@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84B4E1C6-20AA-473D-7653-9F4C89B58FD2" name="DETALLE_MOVIMIENTO_PT">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle_movimiento_inventario" id="94233252-A98C-F5C7-33DB-69BC511DBB36">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CFC3FD3-A787-696A-9AE3-B2101CD97924" referredColumn="389BFE03-12E3-EADB-D91F-29B68B6326D9"/>
+</associations>
+</Column>
+<Column name="id_empresa" id="1934767F-3D2E-583F-0345-D956A630A928">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CFC3FD3-A787-696A-9AE3-B2101CD97924" referredColumn="5C3E746B-C7BA-F53B-1D74-24A747AA3448"/>
+<colAssociation fkAssociation="E430605E-45B2-031B-63C5-4CC251DBABD6" referredColumn="991EE48E-DE05-70BF-EA04-B7D23CD7FFFE"/>
+</associations>
+</Column>
+<Column name="id_lote_producto" id="4A353492-8817-A936-AB55-F082D6C42213">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E430605E-45B2-031B-63C5-4CC251DBABD6" referredColumn="F7E843D1-C4DA-AAAD-AD2F-E0255E35F7E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD03AB54-C7B7-6753-8246-247F524AF3CF" name="pk_detalle_movimiento_pt">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1934767F-3D2E-583F-0345-D956A630A928"/>
+<colUsage columnID="94233252-A98C-F5C7-33DB-69BC511DBB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="305FBC84-0F5F-DFDF-32A4-1282BBCF0272" name="uq_detalle_mov_pt_empresa_id">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1934767F-3D2E-583F-0345-D956A630A928"/>
+<colUsage columnID="94233252-A98C-F5C7-33DB-69BC511DBB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80BB3F14-E50E-1722-4F5A-E3D9A34BEC1C" name="fk_detalle_mov_pt_base">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1934767F-3D2E-583F-0345-D956A630A928"/>
+<colUsage columnID="94233252-A98C-F5C7-33DB-69BC511DBB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9816A523-B6FE-089C-BA62-C758BA0E6EC6" name="fk_detalle_mov_pt_lote">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1934767F-3D2E-583F-0345-D956A630A928"/>
+<colUsage columnID="4A353492-8817-A936-AB55-F082D6C42213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

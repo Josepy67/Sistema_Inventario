@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="ADEF3212-45F6-E133-F546-26CC7DE96930" containerWithKeyObject="E230C6EC-C092-AAC3-CACB-F5DB5ED53954" localFKIndex="A88673C3-992A-F805-0045-4EF7B425B3A5" name="fk_suscripcion_plan">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>PLAN_SAAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFC2B1E8-C168-5939-0475-ADAA2BEE0DDB</referredTableID>
+<keyObject>32E8DA2B-B931-CB78-AADB-EA466E219404</keyObject>
+<referredKeyID>32E8DA2B-B931-CB78-AADB-EA466E219404</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

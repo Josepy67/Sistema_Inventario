@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D2829599-BC42-DB32-189A-5050F3D38C11" containerWithKeyObject="46B426F0-614D-7023-BDA0-E49CE132A5FC" localFKIndex="FD4D0841-C3E0-3BC0-35E4-4976DDDA6F2C" name="fk_rel_amasado_horne_011">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>UNIDAD_MEDIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ABDBCCC-1AF9-FC9D-169F-85832995B4D8</referredTableID>
+<keyObject>F97CA065-7E84-E181-A29A-2AAF83795B14</keyObject>
+<referredKeyID>F97CA065-7E84-E181-A29A-2AAF83795B14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_unidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

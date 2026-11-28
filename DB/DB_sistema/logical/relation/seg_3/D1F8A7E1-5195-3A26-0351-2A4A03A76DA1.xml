@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_empleado_rol_rol" directorySegmentName="seg_3" id="D1F8A7E1-5195-3A26-0351-2A4A03A76DA1">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>8AC04AD1-DD30-508F-107A-291C069902D4</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>84A3EC03-F6FC-73BD-7F78-04F794C39C95</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2BE88C-6B1D-6876-F5D6-7EE833E12436</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD8967B3-9596-E7F9-AE70-2F04CF2FE35A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

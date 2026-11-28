@@ -1,0 +1,304 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="modelo_datamodeler_importacion_oracle_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40" id="08F6DE54-B1E9-4D54-02EF-4304A55A5DA2">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TIMESTAMP WITH TIME ZONE_6_0_0" id="0B730BCB-F9C8-759D-F357-830BB873D578">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT046</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_250" id="0CCA7214-25E2-DFD6-E9F5-116CD289E56B">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>250</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_0" id="1FB95924-1B79-E43C-CF8E-5660101E724E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT028</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_0_0" id="3601A69F-F059-CC5C-0756-D627D7F4712B">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="3BDF3101-C2A7-EDBC-32E6-5726F0C17EF3">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="40B1199C-E44D-D451-B7D6-B8C434D796D5">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="4225D1E4-381D-0E69-4115-2194FB9909B3">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="4270F5BE-BB7F-E170-F08E-66BF6A0A94C9">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_45" id="4EE2FB31-E206-BA00-6E00-15AF8B420A47">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>45</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_14_3_0" id="4FE3AB7B-076A-6374-98B3-4CEFF0338BFA">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_14_2_0" id="5D4F64D9-20D3-E2A7-B054-E34347A4BC63">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="685DA975-2C3C-7B3E-6D38-C517B52B65B2">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="89D289DF-AFC2-B554-7AFD-8B6A5F1C9672">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="8E06B18F-BE0A-C8FF-E066-7656BC496F1E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80" id="8E92A2D5-1AA3-8716-8914-ECEA7BD317B6">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>80</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="92391B2E-DCF7-1EF1-0145-082F1539941D">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="992CF0D1-510A-0F93-25DB-170A43D08DB7">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_12" id="9E6E82D8-F642-87FB-8E80-23BBB5AE36C8">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>12</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="A3C74EE1-BA21-67E5-167E-838E5497022A">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_12_3_0" id="A5595DC4-AE92-09BD-A53D-65A9C61F378C">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_2_0" id="C04F8511-B327-8FF3-3DE1-BDBE914DDC48">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_120" id="C41846E0-C964-677A-4B7C-06A21ECE7717">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>120</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="INTERVAL DAY TO SECOND_2_6_0" id="C858D37A-0E49-DA55-7C21-81A7FA3D34EE">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT049</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="CBB4A0EA-4BBA-72EE-B28E-87953137EC6E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>25</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_254" id="D4937B89-B36E-84AB-0BB0-F1642D23CB0A">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:53 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>254</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="DF2A8C1A-6F95-30C5-9A90-617D8583718C">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_19_0_0" id="E9422CED-05A9-4BB9-2D48-7D92B9A644DA">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:18:52 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>modelo_datamodeler_importacion_oracle_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

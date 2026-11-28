@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_movimiento_empleado" directorySegmentName="seg_3" id="A93AE84A-FD69-0B92-85B7-80190A1CCEFB">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>B7E81FED-1625-A545-4E91-30023E5726B8</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>CEA47EE5-3157-5572-1B6C-41F2CC98F27B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CA51423-DF58-F97D-3774-A92E71AD55C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25AF8A48-087B-5A95-C52C-4C918B3A0761</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A59D922-30E0-0C03-A171-9C05F7CE81F1" name="USUARIO_EMPRESA_ROL">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="B771173B-7AA4-2AE9-6445-5C9E710F7C33">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D2CAC1-937C-1BAF-EC29-6D0C28F90C80" referredColumn="B9594DE9-A8DC-E35A-E7E7-C62D9FCB5D56"/>
+<colAssociation fkAssociation="4E929C03-0856-4BDB-AC79-019484759EDC" referredColumn="9DE0A503-9F00-8FD2-F56B-CAA9D9D2E339"/>
+</associations>
+</Column>
+<Column name="id_usuario_empresa" id="D13A1C09-16F4-E13F-0A35-CF22F24761E9">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D2CAC1-937C-1BAF-EC29-6D0C28F90C80" referredColumn="AF1ED4DC-6DFB-7C0D-6A7B-C87A04AD6197"/>
+</associations>
+</Column>
+<Column name="id_rol" id="F8BE6A4A-D233-97D3-702E-D8FBCDF52DC2">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E929C03-0856-4BDB-AC79-019484759EDC" referredColumn="42ABE23E-F7B3-0082-6444-C47A4CCA11DF"/>
+</associations>
+</Column>
+<Column name="fecha_asignacion" id="62D37579-96F0-9B30-76A9-C86F412C5CD1">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_asignado_por" id="71593B1B-C6CE-F33D-7344-9555E8F28462">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0AEA433-F690-711D-07E5-021EA76D8E5E" referredColumn="F113E9AD-3CA8-2D0F-841C-06492E4E0259"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67E34309-15E9-C72E-79D7-863C32983B33" name="pk_usuario_empresa_rol">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B771173B-7AA4-2AE9-6445-5C9E710F7C33"/>
+<colUsage columnID="D13A1C09-16F4-E13F-0A35-CF22F24761E9"/>
+<colUsage columnID="F8BE6A4A-D233-97D3-702E-D8FBCDF52DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="813E748A-07F2-3EC0-1A34-7AF5E7041382" name="fk_uer_asignado_por">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71593B1B-C6CE-F33D-7344-9555E8F28462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B9A47B8-1185-AA7B-665A-6742E312BD0A" name="fk_uer_membresia">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B771173B-7AA4-2AE9-6445-5C9E710F7C33"/>
+<colUsage columnID="D13A1C09-16F4-E13F-0A35-CF22F24761E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18D424B1-78CE-4E97-795F-55977089FEA2" name="fk_uer_rol">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B771173B-7AA4-2AE9-6445-5C9E710F7C33"/>
+<colUsage columnID="F8BE6A4A-D233-97D3-702E-D8FBCDF52DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

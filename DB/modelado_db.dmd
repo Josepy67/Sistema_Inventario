@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelado_db" id="0900AF49-1966-223E-27D3-EB62F9F986BB" version="3.5">
-<createdBy>moises</createdBy>
-<createdTime>2026-11-26 14:11:19 UTC</createdTime>
-<ownerDesignName>modelado_db</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>0900AF49-1966-223E-27D3-EB62F9F986BB</designId>
-</OSDM_Design>

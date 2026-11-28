@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_materia_prima_unidad" directorySegmentName="seg_3" id="2043C56A-6C6E-1CED-F0B9-8489C90F5F80">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>C917A1AF-A04B-CB8D-C76E-EB415F3AEE89</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>C25C870C-4843-057D-29B0-D221CC2E1097</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5C97843-E39E-F1F0-FE0E-0F1FAEE2DB19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C055E4D-865F-EDD2-F750-85D397A585D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

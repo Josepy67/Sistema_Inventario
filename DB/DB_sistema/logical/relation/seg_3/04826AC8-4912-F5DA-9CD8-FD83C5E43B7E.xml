@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_orden_producto" directorySegmentName="seg_3" id="04826AC8-4912-F5DA-9CD8-FD83C5E43B7E">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>C9704EDC-CD93-07EF-C90D-C68E9F8663E7</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>0379ACA2-5631-98E9-FD32-B606FF7D1EF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53378D99-4AE8-F5E7-CAFD-C9DFB1128AB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9E91489-3E36-F354-7018-2613A13A2797</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

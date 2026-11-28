@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21D9D1F8-DCB7-845D-76AF-A439C750F272" name="HISTORIAL_UBICACION_CAJA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_historial" id="719D1B58-EBE9-C39A-2F1B-A6110EFFF5DE">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_empresa" id="7D1D87D0-19F5-0EBA-A8F1-304EECDFB0BE">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA9A69B-A94E-5BC8-39EE-B69A99375A60" referredColumn="18D9A8EB-B086-CFA8-AA28-CFB63E45AC3F"/>
+<colAssociation fkAssociation="F3CF0A97-EB55-440F-08FA-C76F6A682E69" referredColumn="084DE353-4FBB-0E9D-2885-C395C4EAAE78"/>
+<colAssociation fkAssociation="F86D7E2D-578D-5046-B68C-DD039748521E" referredColumn="FF4E4139-FE6A-C84F-CCD8-BC4A2E1C3A4E"/>
+</associations>
+</Column>
+<Column name="id_caja" id="5FEDC826-1B57-00AB-8819-F3135E5D55C0">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA9A69B-A94E-5BC8-39EE-B69A99375A60" referredColumn="B690B2AD-7128-6394-12C4-4DAC0BCAFC84"/>
+</associations>
+</Column>
+<Column name="id_ubicacion" id="03214731-5AEA-E537-1C9F-E3DE97C808EE">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F86D7E2D-578D-5046-B68C-DD039748521E" referredColumn="2ED7A33F-2FD5-93DC-4BEE-18BD5A11AEFC"/>
+</associations>
+</Column>
+<Column name="fecha_entrada" id="3CF4B822-24FF-C1C0-F143-34E55CF9987A">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_salida" id="16FDDBE4-5470-1E4C-BA16-991298E8FA44">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="2A6ED885-9B67-8EB3-52EB-9BE17DDC930E">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3CF0A97-EB55-440F-08FA-C76F6A682E69" referredColumn="D07F29DE-0CEC-76B4-B4F2-FDD3E4ABAE85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACFE24A8-E8B0-9482-8F66-43E2AEE8AB43" name="pk_historial_ubicacion_caja">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719D1B58-EBE9-C39A-2F1B-A6110EFFF5DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF94674C-0011-AD30-4BC8-93DB91981771" name="ix_historial_caja_fechas">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D1D87D0-19F5-0EBA-A8F1-304EECDFB0BE"/>
+<colUsage columnID="5FEDC826-1B57-00AB-8819-F3135E5D55C0"/>
+<colUsage columnID="3CF4B822-24FF-C1C0-F143-34E55CF9987A"/>
+<colUsage columnID="16FDDBE4-5470-1E4C-BA16-991298E8FA44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8C43C62-6C90-23A6-C8D1-9C62F1C26250" name="fk_hist_ubic_caja">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D1D87D0-19F5-0EBA-A8F1-304EECDFB0BE"/>
+<colUsage columnID="5FEDC826-1B57-00AB-8819-F3135E5D55C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9698A90E-C7A6-D009-B599-BA59BEF464BB" name="fk_hist_ubic_empleado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D1D87D0-19F5-0EBA-A8F1-304EECDFB0BE"/>
+<colUsage columnID="2A6ED885-9B67-8EB3-52EB-9BE17DDC930E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A76C8F0-6ADA-D849-E3D4-44EE78753A45" name="fk_hist_ubic_ubicacion">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D1D87D0-19F5-0EBA-A8F1-304EECDFB0BE"/>
+<colUsage columnID="03214731-5AEA-E537-1C9F-E3DE97C808EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_hist_ubic_fechas" directorySegmentName="seg_0" id="6BCCB13D-C59C-4C0B-C6FC-29D600CE31F1">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<rule><![CDATA[fecha_salida IS NULL OR fecha_salida >= fecha_entrada]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

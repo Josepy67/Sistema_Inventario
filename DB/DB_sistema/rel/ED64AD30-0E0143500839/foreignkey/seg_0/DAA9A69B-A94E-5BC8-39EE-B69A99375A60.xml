@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAA9A69B-A94E-5BC8-39EE-B69A99375A60" containerWithKeyObject="21D9D1F8-DCB7-845D-76AF-A439C750F272" localFKIndex="D8C43C62-6C90-23A6-C8D1-9C62F1C26250" name="fk_hist_ubic_caja">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>CAJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F30217A2-1810-7AC3-E169-75DC00A2284A</referredTableID>
+<keyObject>C134EE7E-5364-87A4-0835-B77D144A6BB8</keyObject>
+<referredKeyID>C134EE7E-5364-87A4-0835-B77D144A6BB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_caja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

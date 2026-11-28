@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="B9D757B0-5790-AD84-744C-1D7A38CB9866" containerWithKeyObject="10C4C82C-576E-8DD6-EC6A-B55442302A97" localFKIndex="65F2D76A-8270-3A9F-E4A4-D0B1E43A6EF8" name="fk_registro_temp_bodega">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>BODEGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCDB57B1-B48C-7D2B-F9C1-0DFEED862D7E</referredTableID>
+<keyObject>9B16D09F-B5B8-AD4B-8E46-06F544A4F194</keyObject>
+<referredKeyID>9B16D09F-B5B8-AD4B-8E46-06F544A4F194</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_bodega</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

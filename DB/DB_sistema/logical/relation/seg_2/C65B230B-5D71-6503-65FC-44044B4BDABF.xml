@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_despacho_responsable" directorySegmentName="seg_2" id="C65B230B-5D71-6503-65FC-44044B4BDABF">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>E203C893-C673-DF9B-6263-A1DF36070CE0</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>CEA47EE5-3157-5572-1B6C-41F2CC98F27B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CA51423-DF58-F97D-3774-A92E71AD55C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6269070-E05C-82C4-99F0-1ACB21F6E0EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

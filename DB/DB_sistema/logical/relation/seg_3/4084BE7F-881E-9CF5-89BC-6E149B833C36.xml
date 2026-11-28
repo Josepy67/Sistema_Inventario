@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_lote_produccion_producto" directorySegmentName="seg_3" id="4084BE7F-881E-9CF5-89BC-6E149B833C36">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>D463E544-C456-364C-2E5D-C469E919A250</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>0379ACA2-5631-98E9-FD32-B606FF7D1EF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53378D99-4AE8-F5E7-CAFD-C9DFB1128AB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>010E845D-F247-875E-ED64-88FFEC4BDC6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

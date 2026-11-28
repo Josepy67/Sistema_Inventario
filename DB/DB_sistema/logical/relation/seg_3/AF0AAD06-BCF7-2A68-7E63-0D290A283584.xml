@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_merma_horneado" directorySegmentName="seg_3" id="AF0AAD06-BCF7-2A68-7E63-0D290A283584">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>0DB028CC-A2B2-B1C5-58F5-326528DC6587</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>14533C04-2974-A6DD-A2BA-37C6CF08C445</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A1C8A0-8D15-B2E7-BE1F-78FE3DD3AEE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6906930-6FA4-5350-9BE4-174D0333C413</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

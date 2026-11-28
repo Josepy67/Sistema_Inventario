@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CECA1E40-D0DD-1B2B-5475-1F7A1974CE57" name="ROL_PERMISO">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="3955222C-005A-EDBD-9ED6-6A250626D45B">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D9AA248-26D4-0FAF-681F-E938D1F0EA85" referredColumn="9DE0A503-9F00-8FD2-F56B-CAA9D9D2E339"/>
+</associations>
+</Column>
+<Column name="id_rol" id="CAE47A9B-5F0C-D97B-2865-14D66BFAD5EB">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D9AA248-26D4-0FAF-681F-E938D1F0EA85" referredColumn="42ABE23E-F7B3-0082-6444-C47A4CCA11DF"/>
+</associations>
+</Column>
+<Column name="id_permiso" id="16487C97-66F6-B3B8-E818-46FDFEF08462">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36123437-152C-19E7-9043-CC8DC28911C8" referredColumn="75D23192-EDB1-4063-14AC-1B02B2FB92D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E27A1DF9-C3B0-DC89-E36A-5FF8BBE91B94" name="pk_rol_permiso">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3955222C-005A-EDBD-9ED6-6A250626D45B"/>
+<colUsage columnID="CAE47A9B-5F0C-D97B-2865-14D66BFAD5EB"/>
+<colUsage columnID="16487C97-66F6-B3B8-E818-46FDFEF08462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4111490-DF94-B48F-2D4D-3BAD63E951DD" name="fk_rol_permiso_permiso">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16487C97-66F6-B3B8-E818-46FDFEF08462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="261C0E19-33EC-F2E7-F637-D56BE1DD228F" name="fk_rol_permiso_rol">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3955222C-005A-EDBD-9ED6-6A250626D45B"/>
+<colUsage columnID="CAE47A9B-5F0C-D97B-2865-14D66BFAD5EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

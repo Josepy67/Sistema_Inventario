@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_movimiento_bodega_origen" directorySegmentName="seg_3" id="65D52C6F-210C-0B12-D974-02123292F713">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>D472CF77-9024-E4E1-8BB5-582294D59AC2</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>46C314F8-EB5F-CCA9-4FF7-3B848786A819</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3322D61E-2CE4-533E-3928-F9AA61BA621C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25AF8A48-087B-5A95-C52C-4C918B3A0761</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

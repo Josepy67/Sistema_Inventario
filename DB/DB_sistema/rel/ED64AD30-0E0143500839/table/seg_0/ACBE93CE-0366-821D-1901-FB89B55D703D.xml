@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACBE93CE-0366-821D-1901-FB89B55D703D" name="CONSUMO_MATERIA_PRIMA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consumo" id="15C1C97C-A71F-ACF8-2536-A4983BD09DD4">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_empresa" id="B14ED263-4F64-EB02-9914-57A8DC1EB244">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDDFCFF-9DAE-C78E-5D63-67671AF03BE8" referredColumn="4AB00AB4-F90C-C4B1-6ACC-5D0695FFA211"/>
+<colAssociation fkAssociation="0DA8C563-DCE7-7456-DD9C-ABAF93685316" referredColumn="084DE353-4FBB-0E9D-2885-C395C4EAAE78"/>
+<colAssociation fkAssociation="BB954149-2277-5298-D4D6-245369D1EA0B" referredColumn="8B00028F-4132-7F0C-AFF8-958185A236B1"/>
+<colAssociation fkAssociation="6C227BF3-6FC7-70D8-E908-D5A84AAB4A66" referredColumn="991EE48E-DE05-70BF-EA04-B7D23CD7FFFE"/>
+</associations>
+</Column>
+<Column name="id_lote_producto" id="8B1B1130-DF83-B9C1-9788-25F039C36A18">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C227BF3-6FC7-70D8-E908-D5A84AAB4A66" referredColumn="F7E843D1-C4DA-AAAD-AD2F-E0255E35F7E5"/>
+</associations>
+</Column>
+<Column name="id_lote_mp" id="B2936415-652D-CF3F-0EFB-74481739D1FA">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB954149-2277-5298-D4D6-245369D1EA0B" referredColumn="D35504A7-D498-A333-C7B9-6DCC2382A355"/>
+</associations>
+</Column>
+<Column name="id_detalle_movimiento_inventario" id="01B6F4A4-FD9B-EC78-A1FE-CC255D8246EB">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDDFCFF-9DAE-C78E-5D63-67671AF03BE8" referredColumn="BD5A8009-7AF9-64F6-30C5-6B44803DF0A8"/>
+</associations>
+</Column>
+<Column name="cantidad_utilizada" id="DFCF572B-0C2F-9656-FA7C-F5AF9778A6D1">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4FE3AB7B-076A-6374-98B3-4CEFF0338BFA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_unidad" id="34E29B91-8949-A358-FF5B-F36D0BE2496B">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67E2B447-4905-630E-A17E-47BEC4EE32B4" referredColumn="F5C6FC62-384F-80B8-5F07-F61915920E30"/>
+</associations>
+</Column>
+<Column name="fecha_hora" id="B63D7BA4-C4CD-43A3-02F7-05B357FC1E9A">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>0B730BCB-F9C8-759D-F357-830BB873D578</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="AD47E9FF-9024-0875-6E1C-42CE4BFF31E6">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9422CED-05A9-4BB9-2D48-7D92B9A644DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DA8C563-DCE7-7456-DD9C-ABAF93685316" referredColumn="D07F29DE-0CEC-76B4-B4F2-FDD3E4ABAE85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="536444A2-5863-2999-DCA1-B97FB9D026E9" name="pk_consumo_materia_prima">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15C1C97C-A71F-ACF8-2536-A4983BD09DD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="867E6792-1563-2BA3-26AD-B27F175C86DA" name="uq_consumo_detalle_mov">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14ED263-4F64-EB02-9914-57A8DC1EB244"/>
+<colUsage columnID="01B6F4A4-FD9B-EC78-A1FE-CC255D8246EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F5F7A95-0A2D-CB84-97D3-DBCCA9B7DCB9" name="fk_consumo_detalle_mp">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14ED263-4F64-EB02-9914-57A8DC1EB244"/>
+<colUsage columnID="01B6F4A4-FD9B-EC78-A1FE-CC255D8246EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A86B012-2B1F-2967-34CD-9C52B531A647" name="fk_consumo_empleado">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14ED263-4F64-EB02-9914-57A8DC1EB244"/>
+<colUsage columnID="AD47E9FF-9024-0875-6E1C-42CE4BFF31E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41430236-30BB-82D5-9B1D-AE3672078591" name="fk_consumo_lote_mp">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14ED263-4F64-EB02-9914-57A8DC1EB244"/>
+<colUsage columnID="B2936415-652D-CF3F-0EFB-74481739D1FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB8D8036-E124-86E0-90EC-06A110ED6804" name="fk_consumo_lote_producto">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B14ED263-4F64-EB02-9914-57A8DC1EB244"/>
+<colUsage columnID="8B1B1130-DF83-B9C1-9788-25F039C36A18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28FFF0D5-C788-0277-3F5E-4ADE7943DA6A" name="fk_consumo_unidad">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E29B91-8949-A358-FF5B-F36D0BE2496B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_consumo_cantidad" directorySegmentName="seg_0" id="281EA6C3-EFF0-5768-DF59-E7C060196986">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:34 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<rule><![CDATA[cantidad_utilizada > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CFC3FD3-A787-696A-9AE3-B2101CD97924" containerWithKeyObject="84B4E1C6-20AA-473D-7653-9F4C89B58FD2" localFKIndex="80BB3F14-E50E-1722-4F5A-E3D9A34BEC1C" name="fk_detalle_mov_pt_base">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>DETALLE_MOVIMIENTO_INVENTARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>075A014E-87AF-B86B-60A9-9B05CA36951F</referredTableID>
+<keyObject>D7521CA2-76E5-D90A-3523-DD71A8E5463A</keyObject>
+<referredKeyID>D7521CA2-76E5-D90A-3523-DD71A8E5463A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_detalle_movimiento_inventario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

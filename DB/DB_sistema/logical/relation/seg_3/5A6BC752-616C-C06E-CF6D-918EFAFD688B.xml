@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_proveedor_empresa" directorySegmentName="seg_3" id="5A6BC752-616C-C06E-CF6D-918EFAFD688B">
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 23:59:34 UTC</createdTime>
+<generatorID>58F931B7-2190-1E18-BE76-757D08992FBB</generatorID>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<engineerTo>
+<item key="ED64AD30-5C5D-B73B-279B-0E0143500839" value="true"/>
+</engineerTo>
+<sourcePk>D76103DE-D7A4-E9AE-427C-A74293EAF883</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D719405B-0A46-362E-5B49-DA1002E228ED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9A3B5906-CEA8-8CAA-F369-CCB1FC41F23B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

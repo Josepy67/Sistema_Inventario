@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="0D9AA248-26D4-0FAF-681F-E938D1F0EA85" containerWithKeyObject="CECA1E40-D0DD-1B2B-5475-1F7A1974CE57" localFKIndex="261C0E19-33EC-F2E7-F637-D56BE1DD228F" name="fk_rol_permiso_rol">
+<sourceDDLFile>modelo_datamodeler_importacion_oracle.sql</sourceDDLFile>
+<createdBy>moises</createdBy>
+<createdTime>2026-11-27 22:57:35 UTC</createdTime>
+<ownerDesignName>DB_sistema</ownerDesignName>
+<referredTableLongName>ROL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98183F29-EE1E-04F5-CEA4-E7BBB34C8C75</referredTableID>
+<keyObject>CCD1F453-3E32-9035-0F87-54F11D570523</keyObject>
+<referredKeyID>CCD1F453-3E32-9035-0F87-54F11D570523</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empresa,id_rol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
